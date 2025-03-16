@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@color/blue"
+    >
+
+
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile Picture"
+        android:textColor="#000"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btn_personal_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal Details"
+        android:textColor="#000"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btn_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Summary"
+        android:textColor="#000"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btn_education"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Education"
+        android:textColor="#000"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btn_experience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Experience"
+        android:textColor="#000"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btn_certifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Certifications"
+        android:textColor="#000"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btn_references"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="References"
+        android:textColor="#000"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>
