@@ -13,6 +13,24 @@
         android:theme="@style/Theme.CVBuilder"
         tools:targetApi="31">
         <activity
+            android:name=".References_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Certifications_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Experience_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Education_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Summary_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Personal_Details_Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true" />
         <activity
@@ -24,7 +42,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ProfilePicActivity"/>
+        <activity android:name=".ProfilePicActivity" />
     </application>
 
 </manifest>
